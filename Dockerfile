@@ -1,5 +1,5 @@
 # build web
-FROM node:18.7.0-alpine3.16 AS web-builder
+FROM node:18.18.2-alpine3.18 AS web-builder
 WORKDIR /web
 COPY web/package.json web/pnpm-lock.yaml ./
 # install pnpm
