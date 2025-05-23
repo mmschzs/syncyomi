@@ -4,13 +4,13 @@
 #
 # Default: "localhost"
 #
-host = "127.0.0.1"
+host = "0.0.0.0"
 
 # Port
 #
 # Default: 8282
 #
-port = 8282
+port = 443
 
 # Database Type
 # Set database type to use. Supported: sqlite, postgres
